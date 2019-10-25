@@ -1,0 +1,124 @@
+/* .ddgo_acceptanceOfBid_Search{
+  border:1px solid red;
+} */
+.ddgo_acceptanceOfBid_Search>form.ant-form>div.ant-row>div>div.ant-form-item{
+  /* border:1px solid green; */
+  margin: 5px 10px;
+}
+
+.ddgo_acceptanceOfBid_Search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+  /* border:1px solid rgb(34, 0, 128); */
+  float: left;
+}
+.ddgo_acceptanceOfBid_Search>form.ant-form>div.ant-row{
+  margin-bottom: 0;
+}
+.ddgo_acceptanceOfBid_Search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+  overflow: hidden;
+  height: 39px;
+}
+
+/* .ddgo_acceptanceOfBid_AmountRange,.ddgo_acceptanceOfBid_Time{
+  border:1px solid red;
+} */
+.ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+  float: left;
+}
+.ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+  float: left;
+}
+@media screen and (min-width: 768px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 47%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 992px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 47%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1200px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 45.4%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 45.4%;
+  }
+}
+@media screen and (min-width: 1366px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 47%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 47%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1600px){
+  .ddgo_acceptanceOfBid_AmountRange>div.ant-input-number{
+    width: 46.8%;
+  }
+  .ddgo_acceptanceOfBid_Time>span.ant-calendar-picker{
+    width: 46.9%;
+  }
+}
+
+.ddgo_acceptanceOfBidButton{
+  /* border:1px solid red; */
+  width: 160px;
+  margin: 0 auto;
+}
+.ddgo_acceptanceOfBidButton>button{
+  margin: 5px;
+}
+/* table */
+.ddgo_enterpriseBidresult_table{
+  /* border:1px solid red; */
+  margin: 20px 0;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:first-child{
+  width: 8%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:last-child{
+  width: 8%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(2){
+  width: 18%;
+  text-align: left;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(3){
+  width: 14%;
+  text-align: left;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(4){
+  width: 14%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(5){
+  width: 12%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(6){
+  width: 12%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td:nth-child(7){
+  width: 12%;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td>a{
+  color: #1d85e6;
+  text-decoration: none;
+}
+.ddgo_enterpriseBidresult_table table>tbody>tr>td>a:hover{
+  cursor: pointer;
+}

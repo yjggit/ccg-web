@@ -1,0 +1,23 @@
+
+  #WithinNews .ant-table-thead{
+    display: none;
+}
+
+#WithinNews .ant-table-tbody>tr>td{
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    border-bottom:1px dashed rgb(207, 207, 207);
+}
+#WithinNews .ant-table-tbody>tr>td:last-child{
+    width:  100px;
+}
+#WithinNews .ant-table-tbody>tr>td>a{
+    text-decoration: none;
+    color: #000;
+}
+
+#WithinNews .ant-table-tbody>tr:hover a{
+    color: #348bda;
+
+}

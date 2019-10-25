@@ -1,0 +1,212 @@
+.ddgo_performance_search{
+  width: 100%;
+  height: auto;
+  /* border:1px solid red; */
+  position: relative;
+}
+.ddgo_performance_blackModal{
+  width: 100%;
+  height:100px;
+  background-color: rgba(151, 151, 151, 0.39);
+  border-radius: 6px;
+  position: absolute;
+  z-index: 9;
+  display: none;
+}
+.ddgo_performance_search:hover .ddgo_performance_blackModal{
+  display: block;
+}
+.ddgo_performance_blackModal>.ddgo_performance_blackModal_but{
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+  background-color: #3e81d3;
+  border:0;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top:30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing:1px;
+  box-shadow: 0 0 5px  rgba(116, 116, 116, 0.342);
+}
+.ddgo_performance_blackModal>.ddgo_performance_blackModal_but:hover{
+  cursor: pointer;
+  background-color: #3e81d3;
+}
+
+.ddgo_performance_search>form.ant-form>div.ant-row>div>div.ant-form-item{
+  /* border:1px solid green; */
+  margin: 5px 10px;
+}
+.ddgo_performance_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+  float: left;
+}
+.ddgo_performance_search>form.ant-form>div.ant-row{
+  margin-bottom: 0;
+}
+.ddgo_performance_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+  overflow: hidden;
+  height: 39px;
+}
+
+/* .ddgo_achievement_AmountRange,.ddgo_Project_Time{
+  border:1px solid red;
+} */
+/*.ddgo_achievement_AmountRange>div.ant-input-number{*/
+/*  float: left;*/
+/*}*/
+#projectStart{
+  width: 100%;
+}
+@media screen and (min-width: 768px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 47%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 40%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 55%;
+  }
+
+  /* #projectStart,#projectEnd{
+    width: 47.4%;
+  } */
+}
+@media screen and (min-width: 992px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 46.2%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 40%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 55%;
+  }
+  /* #projectStart,#projectEnd{
+    width: 46.6%;
+  } */
+}
+@media screen and (min-width: 1200px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 43%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 38%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 56%;
+  }
+  /* #projectStart,#projectEnd{
+    width: 44%;
+  } */
+}
+@media screen and (min-width: 1366px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 46.5%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 40%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 55%;
+  }
+  /* #projectStart,#projectEnd{
+    width: 47%;
+  } */
+}
+@media screen and (min-width: 1440px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 45%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 34%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 60%;
+  }
+  /* #projectStart,#projectEnd{
+    width: 47.2%;
+  } */
+}
+@media screen and (min-width: 1600px){
+  .ddgo_achievement_AmountRange>div.ant-input-number{
+    width: 46.2%;
+  }
+  .ddgo_achievement_principal>div.ant-select{
+    width: 40%;
+  }
+  .ddgo_achievement_principal>input.ant-input{
+    width: 55%;
+  }
+  /* #projectStart,#projectEnd{
+    width: 47.4%;
+  } */
+}
+
+.ddgo_performance_searchButtons{
+  /* border:1px solid red; */
+  width: 160px;
+  margin: 0 auto;
+}
+.ddgo_performance_searchButtons>button{
+  margin: 5px 5px 0px 5px;
+}
+  
+
+
+
+/* table */
+  .ddgo_performSearch_table{
+    /* border:1px solid red; */
+    margin: 20px 0;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td:first-child{
+    width: 8%;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td:last-child{
+    width: 8%;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(2){
+    width: 34%;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(3){
+    width: 20%;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(4){
+    width: 15%;
+  }
+ 
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(2),
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(3),
+  .ddgo_performSearch_table table>tbody>tr>td:nth-child(4)
+  {
+  text-align: left;
+  }
+  .ddgo_performSearch_table table  tbody>tr>td>ul>li{
+    list-style: none;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td>a{
+    color: #1d85e6;
+    text-decoration: none;
+  }
+  .ddgo_performSearch_table table>tbody>tr>td>a:hover{
+    cursor: pointer;
+  }
+
+
+  .ddgo_company_details_smallBox{
+    width: 280px !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ddgo_company_details_smallBox>.ant-modal{
+    width: 280px !important;
+}
+.ddgo_company_details_smallBox>.ant-modal>.ant-modal-content #rcDialogTitle0{
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+.personBasic{
+    width: 100%;
+    height: auto;
+    color: #313131;
+    /* border:1px solid red; */
+}
+.personBasic>h3:first-child{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #348bda;
+    margin-bottom: 20px;
+}
+.personBasic>p{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    /* border:1px solid red; */
+}
+.personBasic p>span:first-child{
+    color: red;
+    padding: 0 2px 0 0;
+}
+
+.personBasicInput{
+    outline:none;
+    width: 45%;
+    height: 32px;
+    padding: 4px 11px;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+}
+.personBasicInput:hover{
+    border:1px solid #348bda;
+}
+.personBasicRadio{
+    margin: 0 5px 0 10px;
+}
+
+.personBasicButton{
+    width: 80px;
+    height: 30px;
+    outline: 0;
+    background-color: #3592e9;
+    border: 0;
+    border-radius: 4px;
+    color:#fff;
+    margin-left: 10px;
+}
+.personBasicWarn{
+    font-size: 12px;
+    padding: 0 0 0 75px;
+    margin-top: -10px;
+}
+.companyAddr>.ant-cascader-picker{
+    width: 45%;
+}
+.companyAddr>.ant-cascader-picker>input{
+    outline:none;
+    width: 100%;
+    padding: 0 10px;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 2px;
+}
+.detailedAddr{
+    overflow: hidden;
+}
+.detailedAddr>span{
+    float: left;
+}
+.detailedAddr>textarea{
+    width: 45%;
+    float: left;
+    outline:none;
+    padding: 5px 10px;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 2px;
+}
+
+/* .ddgo_binding_enterprise{
+    border:1px solid red;
+} */
+.ddgo_binding_enterprise .ant-select-show-search {
+    /* border:1px solid rgb(46, 24, 24); */
+    width: 45%;
+}
+
+.ddgo_personBasicName>p>div.ant-select-enabled{
+    /* border:1px solid red; */
+    width: 45%;
+}

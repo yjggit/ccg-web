@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#member_banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#member_banner>div{
+    width: 100%;
+    height: 350px;
+    overflow:hidden;
+    position: relative;
+}
+#member_banner>div>img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -ms-transform:translate3d(-50%,-50%,0);
+    -moz-transform:translate3d(-50%,-50%,0);
+    -o-transform:translate3d(-50%,-50%,0);
+}
+
+.ddgo_vipCont{
+    background-color: #fff;
+}

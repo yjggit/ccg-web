@@ -1,0 +1,170 @@
+.ddgo_personCust{
+    width: 100%;
+    height: auto;
+    color: #313131;
+    overflow: hidden;
+    /* border:1px solid red; */
+}
+.ddgo_personCust>div{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.chooseBox>h3{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #348bda;
+    margin-bottom: 15px;
+}
+.personCustChoose{
+    font-size:14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.ddgo_personCust .ant-form-item{
+    margin: 0 5px;
+}
+/* .ddgo_moreChoose{
+    border:1px solid red;         
+} */
+.ddgo_moreChoose p{
+    font-size:14px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+.searchClassItem{
+    width: 650px;
+    border:1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+    width: 100%;
+    min-height: 120px;
+    overflow: hidden;
+    padding: 10px;
+}
+.searchClassItem  P>.ant-tag{
+    /* width: 100%; */
+    font-size: 14px;
+    height: 100%;
+    white-space: pre-wrap;
+}
+.searchClassItem .textshow>.ant-tag{
+    font-size: 14px;
+    height: 100%;
+    white-space: pre-wrap;
+}
+@media screen and (min-width: 768px){
+    .ddgo_winBidCust>div.ant-input-number{
+        width: 43%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .ddgo_winBidCust>div.ant-input-number{
+        width: 46%;
+    }
+}
+
+.ddgo_custCont>form.ant-form>div.ant-row>div>div.ant-form-item{
+    /* border:1px solid green; */
+    margin: 5px 10px;
+}
+.ddgo_custCont>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+    /* border:1px solid rgb(34, 0, 128); */
+    float: left;
+}
+.ddgo_custCont>form.ant-form>div.ant-row{
+    margin-bottom: 0;
+}
+.ddgo_custCont>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+    overflow: hidden;
+    height: 42px;
+}
+
+.ggdo_custButton{
+    width: 120px;
+    margin:0 auto;
+}
+
+.icon_user_vip{
+    width: 300px;
+    height: 200px;
+    background-image: url('./../../images/icon_user_vip.png');
+    margin:0 auto;
+    margin-top:120px;
+}
+
+.ddgo_TenderingCustomized_modal{
+}
+.ddgo_TenderingCustomized_modal #rcDialogTitle0{
+    text-align: center;
+}
+.ddgo_WinningBidCustomized_modal #rcDialogTitle0{
+    text-align: center;
+}
+
+.ddgo_TenderingCustomized_modal .ant-modal>.ant-modal-content>.ant-modal-body{
+    /* border:1px solid red; */
+    width: 95%;
+}
+.ddgo_WinningBidCustomized_modal .ant-modal>.ant-modal-content>.ant-modal-body{
+    /* border:1px solid red; */
+    width: 95%;
+}
+
+.ddgo_TenderingCustomized_modal .ant-row .ant-form-item{
+    /* border:1px solid red; */
+    padding: 0 10px;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item{
+    /* border:1px solid red; */
+    padding: 0 10px;
+}
+
+.ddgo_TenderingCustomized_modal .ant-row .ant-form-item .ant-form-item-label{
+    float: left;
+}
+.ddgo_TenderingCustomized_modal .ant-row .ant-form-item .ant-form-item-control-wrapper{
+    overflow: hidden;
+}
+.ddgo_TenderingCustomized_modal .ant-row .ant-form-item .infoname input {
+    width: 250px;
+    height: 32px;
+    text-indent: 10px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+.ddgo_TenderingCustomized_modal .ant-row .ant-form-item .infoname :-ms-input-placeholder{
+    color: #bfbfbf;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item .ant-form-item-label{
+    float: left;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item .ant-form-item-control-wrapper{
+    overflow: hidden;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item .chooseTime{
+    margin-left: 10px;
+    display: flex;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item .infoname input {
+    width: 250px;
+    height: 32px;
+    text-indent: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.ddgo_WinningBidCustomized_modal .ant-row .ant-form-item .infoname :-ms-input-placeholder{
+    color: #bfbfbf;
+}
+
+.ddgo_SelectedQualifications_box>p{
+    /* float: left; */
+    padding: 0 10px;
+}
+.ddgo_SelectedQualifications_box>.ddgo_SelectedQualifications_more{
+    /* overflow: hidden; */
+    border:1px solid #cecece;
+   min-height: 200px;
+   margin: 0 10px;
+}

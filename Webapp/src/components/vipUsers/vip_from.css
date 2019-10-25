@@ -1,0 +1,99 @@
+.ddgo_vipPay_from{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ddgo_vipPay_class{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+.ddgo_vipPay_box{
+    width: 100%;
+    box-shadow: 0 0 10px #f2f2f2;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.ddgo_vipPay_boxList{
+    float: left;
+    width: 25%;
+    height: 320px;
+    border: 1px solid #f2f2f2;
+    padding: 40px 20px;
+}
+.ddgo_vipPay_boxList>p{
+    text-align: center;
+    margin: 0;
+
+}
+.ddgo_vipPay_boxList>p:first-child{
+   font-size: 20px;
+   margin-top: 10px;
+}
+.ddgo_vipPay_boxList>p:first-child>span{
+    font-size: 20px;
+    color: rgb(218, 0, 0);
+ }
+ .ddgo_vipPay_boxList>p:nth-child(2){
+     font-size:55px;
+     color: #348bda;
+     margin-top:20px;
+ }
+ .ddgo_vipPay_boxList>p:nth-child(2)>span{
+    font-size:25px;
+}
+.ddgo_vipPay_boxList>p:nth-child(3){
+    font-size: 14px;
+    color: #999999;
+}
+.ddgo_vipPay_boxList>button{
+    display: block;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    outline: 0;
+    background-color: #fff;
+    color: #348bda;
+    border:1px solid #348bda;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.ddgo_vipPay_boxList:hover{
+    border:1px solid #348bda;
+}
+.ddgo_vipPay_boxList:hover button{
+    background-color: #348bda;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-header>.ant-modal-title{
+    text-align: center;
+    font-size: 18px;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>p.ddgo_vipPay_way_titel{
+    font-size: 16px;
+    font-weight: bold;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>div.ddgo_vipPay_way_card{
+   border:1px dashed #348bda;
+   padding: 20px  40px;
+   margin-bottom: 40px;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>div.ddgo_vipPay_way_card>p{
+    font-size: 16px;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>div.ddgo_vipPay_way_card>p>span{
+    font-size: 28px;
+    color: #348bda;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>p:last-child{
+    margin-bottom: 40px;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_vipPay_way>p:last-child>span {
+    font-size: 28px;
+    color: #348bda;
+}
+.ddgo_vipPay_way_Modal>.ant-modal>.ant-modal-content>.ant-modal-footer{
+    display: none;
+}

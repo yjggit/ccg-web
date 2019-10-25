@@ -1,0 +1,96 @@
+#cookieListSearch .ant-row{
+    padding: 0;
+    margin: 0;
+}
+#cookieListSearch .ant-row>form>div{
+    margin-bottom:20px;
+}
+#cookieListSearch .ant-row>form>div>div{
+    width: 100%;
+    overflow: hidden;
+}
+#cookieListSearch .ant-row>form>div>div>div:first-child{
+    width: 80px;
+    float: left;
+
+}
+#cookieListSearch .ant-row>form>div>div>div:last-child{
+    width: 60%;
+
+}
+#cookieListSearch .ant-row>form>div>button{
+    width:35%;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+/*.achievement_AmountRange>div.ant-input-number{*/
+/*    float: left;*/
+/*}*/
+
+@media screen and (min-width: 768px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 47%;
+    }
+}
+@media screen and (min-width: 992px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 46.2%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 43%;
+    }
+
+}
+@media screen and (min-width: 1366px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 46.5%;
+    }
+    /* #projectStart,#projectEnd{
+      width: 47%;
+    } */
+}
+@media screen and (min-width: 1440px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .achievement_AmountRange>div.ant-input-number{
+        width: 46.2%;
+    }
+}
+
+
+
+
+
+
+.cookieSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul{
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px ;
+}
+.cookieSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul:hover{
+    border: 1px solid #1890ff;
+}
+.cookieSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul>li{
+    padding: 0;
+    margin: 0;
+
+}
+
+.cookieSeach .ant-table-wrapper>.ant-spin-nested-loading>.ant-spin-container>.ant-table .ant-table-body>table>tbody>tr>td{
+    padding:15px;
+    min-width: 80px;
+}
+.cookieSeach .ant-table-wrapper>.ant-spin-nested-loading>.ant-spin-container>.ant-table .ant-table-body>table>tbody>tr>td:last-child{
+    width: 120px;
+}
+
+

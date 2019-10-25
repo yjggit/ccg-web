@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#news_banner{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#news_banner>div:first-child{
+    width: 100%;
+    height: 410px;
+    overflow:hidden;
+    position: relative;
+}
+#news_banner>div:first-child>img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -ms-transform:translate3d(-50%,-50%,0);
+    -moz-transform:translate3d(-50%,-50%,0);
+    -o-transform:translate3d(-50%,-50%,0);
+}
+#news_banner>div:nth-child(2){
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+#news_banner>div:nth-child(2)>ul{
+    /* border:1px solid red; */
+    margin: 0 auto;
+}
+#news_banner>div:nth-child(2)>ul>li{
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+}
+#news_banner>div:nth-child(2)>ul>li>a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+#news_banner>div:nth-child(2)>ul>li>a:hover{
+    cursor:pointer;
+}
+
+.newsLiDo{
+    color: #348cda !important;
+    border-bottom: 2px solid #348bda;
+    font-weight: bold;
+}
+
+#newsCont{
+    background-color: #fff;
+    margin: 20px auto 40px auto;
+    min-height: 600px;
+}
+/* made in 2018-08-21 by wushuang */
+@media screen and (min-width: 0){
+    #news_banner>div:nth-child(2)>ul{
+        width: 90%;
+    }
+    #newsCont{
+        width: 90%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    #news_banner>div:nth-child(2)>ul{
+        width: 90%;
+    }
+    #newsCont{
+        width: 90%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    #news_banner>div:nth-child(2)>ul{
+        width: 960px;
+    }
+    #newsCont{
+        width: 960px;
+    }
+  }
+  @media screen and (min-width: 1200px){
+   
+  }
+  @media screen and (min-width: 1600px){
+    
+  }

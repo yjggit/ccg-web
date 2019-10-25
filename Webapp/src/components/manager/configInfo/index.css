@@ -1,0 +1,25 @@
+
+#configIndexBanner>div{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#configIndexBanner>div>a>img{
+    width: 35%;
+}
+
+#configIndexBanner>div>input{
+    outline: none;
+    border:0;
+    margin: 0 30px;
+}
+
+#configIndexBanner>div>button{
+    text-decoration: none;
+    background-color: #348bda;
+    border-radius: 2px;
+    border:0;
+    width: 80px;
+    height: 32px;
+    color: #fff;
+}

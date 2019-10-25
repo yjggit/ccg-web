@@ -1,0 +1,510 @@
+.ddgo_company_detail{
+    margin: 80px auto;
+    min-height: 600px;
+    background-color: #fff;
+    padding: 30px;
+}
+.ddgo_company_details_smallBox{
+    width: 280px !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ddgo_company_details_smallBox>.ant-modal{
+    width: 280px !important;
+}
+.ddgo_company_details_smallBox>.ant-modal>.ant-modal-content #rcDialogTitle0{
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .ddgo_company_detail{
+        width: 1100px;
+    }
+    .ddgo_company_achievement_principal>div.ant-select{
+        width: 35%;
+    }
+    .ddgo_company_achievement_principal>input.ant-input{
+        width: 61%;
+    }
+}
+@media screen and (min-width: 1440px){
+    .ddgo_company_detail{
+        width: 1250px;
+    }
+    .ddgo_company_achievement_principal>div.ant-select{
+        width: 31%;
+    }
+    .ddgo_company_achievement_principal>input.ant-input{
+        width: 65%;
+    }
+}
+
+/*---------基本信息--------basic_information---------  */
+.ddgo_company_basic{
+    width: 100%;
+    margin-bottom: 40px;
+    color: #333;
+}
+.ddgo_company_basic_information>div{
+    background-color: #3e81d3;
+    height: 55px;
+    margin-bottom: 15px;
+}
+.ddgo_company_basic>div>h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.ddgo_company_basic>div>p{
+    text-align: left;
+}
+.ddgo_company_basic>div>p:first-child{
+    width: 100px;
+    float: right;
+}
+.ddgo_company_basic>div>p:first-child>a{
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    width: 100px;
+    /* border:1px solid red; */
+    background-image: url('./../../images/source.gif')
+}
+.ddgo_company_basic>p:nth-child(2){
+    font-size: 14px;
+    color: #333;
+}
+.ddgo_company_details_changeColor{
+    color: #1890ff;
+}
+.ddgo_company_basic_line{
+    height: 1px;
+    background-color: #f2f2f2;
+    margin: 15px 0;
+}
+
+/*---------企业资质--------others_information---------  */
+/* table */
+.ddgo_company_aptitude{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.ddgo_company_aptitude_listTitel{
+    border-left:5px solid #1890ff;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #1890ff;
+}
+.ddgo_company_aptitude_tables{
+    /* border:1px solid red; */
+    width: 100%;
+    /* width: 1190px; */
+}
+.ddgo_company_aptitude_tables>tbody{
+    width: 100%;
+    /* border:1px solid red; */
+}
+.ddgo_company_aptitude_tables>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+.ddgo_company_aptitude_tables>tbody>tr>td:nth-child(2n-1){
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    width:178px ;
+}
+.ddgo_company_aptitude_tables>tbody>tr:first-of-type>td:nth-child(2n){
+    width: 35%;
+}
+/* .ddgo_company_aptitude_tables>tbody>tr:nth-last-of-type(2)>td>{
+    height: 160px;
+    width: 30%;
+    overflow: auto;
+} */
+.ddgo_company_aptitude_tables>tbody>tr>td>ul>li{
+    list-style: none;
+    font-size: 14px;
+}
+
+/*---------人员证书--------others_information---------  */
+.ddgo_company_certificate_search{
+    /* border:1px solid red; */
+    margin: 20px 0;
+}
+.ddgo_company_certificate_search>form.ant-form-horizontal>div.ant-row>div>div.ant-checkbox-group>label {
+    margin: 10px 10px;
+}
+ .ddgo_company_certificate_search>form.ant-form-horizontal>div.ant-row>div>label {
+    margin: 10px 10px;
+}
+.ddgo_company_certificate_lookMore{
+    text-decoration: none;
+    color: #1890ff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.expired {
+    color: red;
+}
+
+.ddgo_company_certificate_search>form.ant-form>div.ant-row>div>div.ant-form-item{
+    margin: 5px 10px;
+}
+.ddgo_company_certificate_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+    float: left;
+}
+.ddgo_company_certificate_search>form.ant-form>div.ant-row{
+    margin-bottom: 0;
+}
+.ddgo_company_certificate_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+    overflow: hidden;
+    height: 39px;
+}
+.ddgo_company_certificate_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper .ant-select{
+    width: 100% !important;
+
+}
+.ddgo_company_certificate_search .ddgo_company_certificate_searchButton{
+    width: 160px;
+    margin: 0 auto 0 auto;
+}
+.ddgo_company_certificate_search .ddgo_company_certificate_searchButton>button{
+    margin: 10px 5px;
+}
+/* .ddgo_company_certificate_list{
+    border:1px solid red;
+} */
+.ddgo_company_certificate_list  div.ant-list-item{
+    padding: 10px;
+}
+.ddgo_company_certificate_list  div.ant-list-item:hover{
+    background-color: #f3fafd;
+}
+.ddgo_company_certificate_list  div.ant-list-item a{
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.ddgo_company_certificate_list  div.ant-list-item:hover a{
+    color: #1890ff;
+}
+.ddgo_company_certificate_list  div.ant-list-item  div.ant-tag{
+    border:0px;
+    border-radius: 0px;
+    font-size: 14px;
+    /*background-color: rgba(0, 159, 232, 0.11);*/
+    background-color: transparent;
+    color: #1890ff;
+}
+.ddgo_company_certificate_list ul.ant-pagination {
+    margin-top: 20px;
+}
+/*---------业绩信息--------others_information---------  */
+.ddgo_company_achievement_search{
+    /* border:1px solid rgb(0, 255, 64); */
+    margin-bottom:10px;
+}
+.achievement_buttons {
+    margin: 10px  20px  20px 0;
+    border-radius: 4px !important;
+}
+/* search */
+.ddgo_company_achievement_search>form.ant-form>div.ant-row>div>div.ant-form-item{
+    margin: 5px 10px;
+}
+
+.ddgo_company_achievement_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+    float: left;
+}
+
+.ddgo_company_achievement_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+    overflow: hidden;
+    height: 39px;
+}
+
+/* .ddgo_company_achievement_Search{
+    width: 160px;
+    margin: 0 auto;
+} */
+.ddgo_company_achievement_Search button{
+    margin: 10px ;
+}
+/* table */
+/* .ddgo_company_achievement_list{
+     border:1px solid red;
+} */
+.ddgo_company_achievement_list  div.ant-list-item{
+    /* border:1px solid rgb(0, 255, 55); */
+    padding: 10px;
+}
+.ddgo_company_achievement_list  div.ant-list-item:hover{
+    background-color: #f3fafd;
+}
+.ddgo_company_achievement_list  div.ant-list-item a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+.ddgo_company_achievement_list  div.ant-list-item:hover a{
+    color: #1890ff;
+}
+.ddgo_company_achievement_list  div.ant-list-item  div.ant-tag{
+    border:0px;
+    border-radius: 0px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #1890ff;
+}
+.ddgo_company_achievement_list ul.ant-pagination {
+    margin-top: 20px;
+}
+.ddgo_company_achievement_tables  table>.ant-table-tbody>tr>td:nth-child(7){
+    width: 10%;
+}
+
+
+/*---------信用信息--------others_information---------  */
+.ddgo_company_credit_titeles{
+    border-left: 5px solid #1890ff;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #1890ff;
+    margin-top: 20px;
+}
+
+/* table */
+.ddgo_company_credit_table01,
+.ddgo_company_credit_table02,
+.ddgo_company_credit_table03,
+.ddgo_company_credit_table04,
+.ddgo_company_credit_table05,
+.ddgo_company_credit_table06,
+.ddgo_company_credit_table07{
+    border-collapse: collapse;
+    width: 100%;
+}
+.ddgo_company_credit_table01>tbody,
+.ddgo_company_credit_table02>tbody,
+.ddgo_company_credit_table03>tbody,
+.ddgo_company_credit_table04>tbody,
+.ddgo_company_credit_table05>tbody,
+.ddgo_company_credit_table06>tbody,
+.ddgo_company_credit_table07>tbody{
+    width: 100%;
+  }
+.ddgo_company_credit_table01>tbody>tr>td,
+.ddgo_company_credit_table02>tbody>tr>td,
+.ddgo_company_credit_table03>tbody>tr>td,
+.ddgo_company_credit_table04>tbody>tr>td,
+.ddgo_company_credit_table05>tbody>tr>td,
+.ddgo_company_credit_table06>tbody>tr>td,
+.ddgo_company_credit_table07>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+.ddgo_company_credit_table01>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table02>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table03>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table04>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table05>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table06>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table07>tbody>tr>td:nth-child(2n-1){
+    width: 120px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.ddgo_company_credit_table01>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table02>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table03>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table04>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table05>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table06>tbody>tr>td:nth-child(2n),
+.ddgo_company_credit_table07>tbody>tr>td:nth-child(2n){
+    width: 23%;
+}
+.ddgo_company_credit_table01>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table02>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table03>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table04>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table05>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table06>tbody>tr:first-child>td:nth-child(2),
+.ddgo_company_credit_table07>tbody>tr:first-child>td:nth-child(2){
+    color: #1890ff;
+}
+
+.ddgo_company_credit_table08{
+    border: 1px solid #d1d3d3;
+}
+.ddgo_company_credit_table08>p{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #3e81d3;
+    border-bottom: 1px solid #d1d3d3;
+}
+.ddgo_company_credit_table08>div{
+    padding: 0 20px;
+}
+.ddgo_company_credit_table08_001,
+.ddgo_company_credit_table08_002,
+.ddgo_company_credit_table08_003{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.ddgo_company_credit_table08_001>tbody>tr>th,
+.ddgo_company_credit_table08_002>tbody>tr>th,
+.ddgo_company_credit_table08_003>tbody>tr>th{
+    padding: 15px 10px;
+    color: #3e81d3;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+}
+.ddgo_company_credit_table08_001>tbody>tr>td,
+.ddgo_company_credit_table08_002>tbody>tr>td,
+.ddgo_company_credit_table08_003>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(2n-1),
+.ddgo_company_credit_table08_003>tbody>tr>td:nth-child(2n-1){
+    background-color: #f2f2f2;
+    text-align: center; 
+}
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(1),
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(2),
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(3),
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(4)
+{
+    width: 14%;
+}
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(5){
+    width: 16%;
+}
+.ddgo_company_credit_table08_001>tbody>tr>td:nth-child(6){
+    width: 28%;
+}
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(1),
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(2),
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(3),
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(4)
+{
+    width: 14%;
+}
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(5){
+    width: 16%;
+}
+.ddgo_company_credit_table08_002>tbody>tr>td:nth-child(6){
+    width: 28%;
+}
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(1),
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(3)
+{
+    width: 14%;
+}
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(2),
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(4),
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(5)
+{
+    width: 14%;
+}
+.ddgo_company_credit_table08_003>tbody>tr:nth-child(3)>td:nth-child(6)
+{
+    width: 14%;
+}
+.icon_user_abc{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 150px;
+}
+.icon_user_abc>div{
+    background-image: url('./../../images/icon_user_abc.png');
+    height: 110px;
+    width: 150px;
+}
+.icon_user_abc>p{
+    text-align: center;
+    color: #9fc7ea;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/*---------良好行为--------others_information---------  */
+.ddgo_company_goodBehavior_table{
+    /* border:1px solid red; */
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.ddgo_company_goodBehavior_table>tbody{
+    width: 100%;
+}
+.ddgo_company_goodBehavior_table>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+.ddgo_company_goodBehavior_table>tbody>tr>td:nth-child(2n-1){
+    width: 120px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.ddgo_company_goodBehavior_table>tbody>tr>td:nth-child(2n){
+    width: 23%;
+}
+.ddgo_company_goodBehavior_table>tbody>tr:first-child>td:nth-child(2){
+    color: #1890ff;
+}
+
+
+.ddgo_company_goodBehavior_table_box .ant-modal-body{
+    min-height: 200px;
+}
+/*---------不良行为--------others_information---------  */
+.ddgo_company_badBehavior_table{
+    /* border:1px solid red; */
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.ddgo_company_badBehavior_table>tbody{
+    width: 100%;
+}
+.ddgo_company_badBehavior_table>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+.ddgo_company_badBehavior_table>tbody>tr>td:nth-child(2n-1){
+    width: 120px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.ddgo_company_badBehavior_table>tbody>tr>td:nth-child(2n){
+    width: 23%;
+}
+.ddgo_company_badBehavior_table>tbody>tr:first-child>td:nth-child(2){
+    color: #1890ff;
+}

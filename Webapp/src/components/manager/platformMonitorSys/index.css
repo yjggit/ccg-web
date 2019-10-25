@@ -1,0 +1,27 @@
+
+
+.tab{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px 0;
+}
+.tab>tbody{
+    width: 100%;
+}
+.tab>tbody>tr>th{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.tab>tbody>tr>td{
+    padding: 10px;
+    color: #333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-align: center;
+}
+

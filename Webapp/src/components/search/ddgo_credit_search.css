@@ -1,0 +1,367 @@
+.ddgo_credit_search{
+    /* border:1px solid red; */
+    padding: 24px 32px;
+    background-color: #fff;
+    min-height: 620px;
+}
+/* .ddgo_credit_search>.ant-tabs{
+    border:1px solid rgb(0, 81, 255);
+} */
+
+.ddgo_company_details_smallBox{
+    width: 280px !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ddgo_company_details_smallBox>.ant-modal{
+    width: 280px !important;
+}
+.ddgo_company_details_smallBox>.ant-modal>.ant-modal-content #rcDialogTitle0{
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    /*search bar */
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav-animated{
+        margin-left: 27%;
+    }
+    /*xyzg search*/
+    .ddgo_credit_search .ddgo_zgxy_search{
+        width: 85%;
+    }
+     /* zgzxxxgkw search */
+     .ddgo_credit_search .ddgo_zgzxxxgkw_search{
+        width: 85%;
+    }
+}
+@media screen and (min-width: 992px){
+    /*search bar */
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav-animated{
+        margin-left: 27%;
+    }
+     /*xyzg search*/
+     .ddgo_credit_search .ddgo_zgxy_search{
+        width: 90%;
+    }
+     /* zgzxxxgkw search */
+     .ddgo_credit_search .ddgo_zgzxxxgkw_search{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1200px){
+    /*search bar */
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav-animated{
+        margin-left: 26%;
+    }
+    /*xyzg search*/
+    .ddgo_credit_search .ddgo_zgxy_search{
+        width: 75%;
+    }
+     /* zgzxxxgkw search */
+     .ddgo_credit_search .ddgo_zgzxxxgkw_search{
+        width: 70%;
+    }
+    
+}
+@media screen and (min-width: 1600px){
+    /*search bar */
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .ddgo_credit_search>.ant-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav-animated{
+        margin-left: 30%;
+    }
+     /*xyzg search*/
+     .ddgo_credit_search .ddgo_zgxy_search{
+        width: 60%;
+    }
+    /* zgzxxxgkw search */
+    .ddgo_credit_search .ddgo_zgzxxxgkw_search{
+        width: 70%;
+    }
+    
+}
+
+
+/* xyzg search */
+.ddgo_credit_search .ddgo_zgxy_search{
+    /* width: 50%; */
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.ddgo_zgxy_blackModal{
+    width: 100%;
+    height:60px;
+    background-color: rgba(151, 151, 151, 0.39);
+    border-radius: 6px;
+    position: absolute;
+    z-index: 9;
+    display: none;
+}
+.ddgo_zgxy_search:hover .ddgo_zgxy_blackModal{
+    display: block;
+}
+.ddgo_zgxy_blackModal>.ddgo_zgxy_blackModal_but{
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #2bc672;
+    border:0;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top:10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing:1px;
+    box-shadow: 0 0 5px  rgba(116, 116, 116, 0.342);
+}
+.ddgo_zgxy_blackModal>.ddgo_zgxy_blackModal_but:hover{
+    cursor: pointer;
+    background-color: #3ad47f;
+}
+
+.ddgo_zgxy_search>div.ant-row>form.ant-form>div{
+    /* border: 1px solid rgb(114, 114, 114); */
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.ddgo_zgxy_search>div.ant-row>form.ant-form>div>div.ant-form-item>div.ant-form-item-label{
+    /* border: 1px solid rgb(114, 114, 114); */
+    /* width: 70px; */
+    float: left;
+}
+.ddgo_zgxy_search>div.ant-row>form.ant-form>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+    overflow: hidden;
+}
+
+.ddgo_zgxy_search>div.ant-row>form.ant-form>div>div.ant-form-item button{
+margin: 0 10px;
+}
+
+/* xyzg table */
+.ddgo_credit_search .ddgo_zgxy_tableBox{
+    /* border:1px solid red; */
+    height: auto;
+    padding:20px 0;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* .ddgo_zgxy_tableBox>div.ant-table-wrapper>div.ant-spin-nested-loading>div.ant-spin-container>div.ant-table>div.ant-table-content>div.ant-table-body>table>thead.ant-table-thead>tr>th{
+    border:1px solid rgb(12, 47, 124);
+} */
+
+.ddgo_zgxy_tableBox table>thead.ant-table-thead>tr>th:first-child{
+    /* border:1px solid rgb(12, 47, 124); */
+    width: 100px;
+}
+
+.ddgo_zgxy_tableBox table>thead.ant-table-thead>tr>th:last-child{
+    /* border:1px solid rgb(12, 47, 124); */
+    width: 100px;
+}
+
+.ddgo_zgxy_tableBox table tbody tr td:nth-child(2){
+    text-align: left;
+}
+.ddgo_zgxy_tableBox table tbody tr td:nth-child(2)>a{
+    text-decoration: none;
+    color: #3e81d3;
+}
+.ddgo_zgxy_tableBox table tbody tr td:last-child>a{
+    text-decoration: none;
+    color: #3e81d3;
+}
+.ddgo_zgxy_tableBox table tbody tr td:nth-child(2):hover{
+    cursor: pointer;
+}
+.ddgo_zgxy_tableBox table tbody tr td:last-child:hover{
+    cursor: pointer;
+}
+
+
+/* zgzxxxgkw search */
+.ddgo_credit_search .ddgo_zgzxxxgkw_search{
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.ddgo_zgzxxxgkw_blackModal{
+    width: 100%;
+    height:100px;
+    background-color: rgba(151, 151, 151, 0.39);
+    border-radius: 6px;
+    position: absolute;
+    z-index: 9;
+    display: none;
+}
+.ddgo_zgzxxxgkw_search:hover .ddgo_zgzxxxgkw_blackModal{
+    display: block;
+}
+.ddgo_zgzxxxgkw_blackModal>.ddgo_zgzxxxgkw_blackModal_but{
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #3e81d3;
+    border:0;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top:30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing:1px;
+    box-shadow: 0 0 5px  rgba(116, 116, 116, 0.342);
+}
+.ddgo_zgzxxxgkw_blackModal>.ddgo_zgzxxxgkw_blackModal_but:hover{
+    cursor: pointer;
+    background-color: #3e81d3;
+}
+
+.ddgo_zgzxxxgkw_search>div.ant-row>form.ant-form>div{
+    /* border: 1px solid rgb(114, 114, 114); */
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.ddgo_zgzxxxgkw_search>div.ant-row>form.ant-form>div>div.ant-form-item>div.ant-form-item-label{
+    width: 70px;
+    float: left;
+}
+.ddgo_zgzxxxgkw_search>div.ant-row>form.ant-form>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+    overflow: hidden;
+}
+
+.ddgo_zgzxxxgkw_search>div.ant-row>form.ant-form>div>div.ant-form-item button{
+margin: 0 10px;
+}
+.ddgo_zgzxxxgkw_search  .ddgo_creditSearchSubmit{
+/* border:1px solid red; */
+width: 180px;
+margin: 0 auto;
+}
+
+/* zgzxxxgkw table */
+.ddgo_credit_search .ddgo_zgzxxxgkw_tableBox{
+    height: auto;
+    padding:20px 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+.ddgo_zgzxxxgkw_tableBox table>thead.ant-table-thead>tr>th:first-child{
+    width: 100px;
+}
+.ddgo_zgzxxxgkw_tableBox table>thead.ant-table-thead>tr>th:last-child{
+    width: 100px;
+}
+.ddgo_zgzxxxgkw_tableBox table tbody tr td:nth-child(2){
+    text-align: left;
+}
+.ddgo_zgzxxxgkw_tableBox table tbody tr td:nth-child(2)>a{
+    text-decoration: none;
+    color: #3e81d3;
+}
+.ddgo_zgzxxxgkw_tableBox table tbody tr td:last-child>a{
+    text-decoration: none;
+    color: #3e81d3;
+}
+.ddgo_zgzxxxgkw_tableBox table tbody tr td:nth-child(2):hover{
+    cursor: pointer;
+}
+.ddgo_zgzxxxgkw_tableBox table tbody tr td:last-child:hover{
+    cursor: pointer;
+}
+/* zgzxxxgkw Modal */
+
+.ant-modal>.ant-modal-content>.ant-modal-body{
+    width: 70%;
+    margin: 0 auto;
+}
+.ant-modal>.ant-modal-content>.ant-modal-body{
+    width: 70%;
+    margin: 20px auto;
+}
+.ant-modal>.ant-modal-content>.ant-modal-body>.ant-row>div>input{
+  width: 90%;
+  height: 40px;
+}
+.ant-modal>.ant-modal-content>.ant-modal-body>.ant-row>div>img{
+    width: 90px;
+    display: block;
+    border:1px solid #d4d4d4;
+    border-radius: 6px;
+    box-shadow: 0 0 2px #d4d4d462;
+  }
+  .ant-modal>.ant-modal-content>.ant-modal-body>.ant-row>div>img:hover{
+    cursor: pointer;
+  }
+
+  .ant-modal>.ant-modal-content>.ant-modal-footer>div{
+    width: 150px;
+    margin: 10px auto;
+}
+
+
+@media screen and (min-width: 768px){
+    .ddgo_credit_instructions{
+        width:85%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .ddgo_credit_instructions{
+        width:75%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .ddgo_credit_instructions{
+        width: 68%;
+    }
+}
+.ddgo_credit_instructions{
+    /* border:1px solid red; */
+    /* width: 68%; */
+    margin: 0 auto;
+}
+.ddgo_credit_instructions>h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555555;
+}
+.ddgo_credit_instructions>p{
+    font-size: 14px;
+    line-height: 36px;
+    text-align: justify;
+    margin: 0;
+}
+.ddgo_credit_instructions>p:nth-child(5){
+    text-align: right;
+}
+.ddgo_credit_instructions>p:last-child{
+    text-align: right;
+}

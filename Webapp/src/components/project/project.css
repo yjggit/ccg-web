@@ -1,0 +1,99 @@
+#project{
+    /* border: 1px solid red; */
+    width: 1200px;
+    height:auto;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 40px 30px;
+}
+#project>h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#project>p{
+    font-size: 14px;
+    text-align: center;
+}
+
+#project>table{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+#project>table>tr>td{
+    padding: 10px;
+    color: #333333;
+    border: 1px solid #d1d3d3;
+    border-collapse: collapse;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+.projectStandard{
+    width: 14.2%;
+}
+#project>table>tr:first-child>td,
+#project>table>tr:nth-child(2)>td,
+#project>table>tr:nth-child(3)>td,
+#project>table>tr:nth-child(4)>td,
+#project>table>tr:nth-child(5)>td,
+#project>table>tr:nth-child(6)>td,
+#project>table>tr:nth-child(11)>td,
+#project>table>tr:nth-child(16)>td,
+#project>table>tr:nth-child(21)>td,
+#project>table>tr:nth-child(26)>td,
+#project>table>tr:nth-child(31)>td,
+#project>table>tr:nth-child(34)>td,
+#project>table>tr:nth-child(37)>td,
+#project>table>tr:nth-child(40)>td,
+#project>table>tr:nth-child(43)>td,
+#project>table>tr:nth-child(46)>td,
+#project>table>tr:nth-child(49)>td,
+#project>table>tr:nth-child(52)>td,
+#project>table>tr:nth-child(55)>td{
+    text-align: left;
+}
+#project>table>tr:nth-child(11)>td,
+#project>table>tr:nth-child(16)>td,
+#project>table>tr:nth-child(21)>td,
+#project>table>tr:nth-child(26)>td,
+#project>table>tr:nth-child(31)>td,
+#project>table>tr:nth-child(34)>td,
+#project>table>tr:nth-child(37)>td,
+#project>table>tr:nth-child(40)>td,
+#project>table>tr:nth-child(43)>td,
+#project>table>tr:nth-child(46)>td,
+#project>table>tr:nth-child(49)>td,
+#project>table>tr:nth-child(52)>td,
+#project>table>tr:nth-child(55)>td{
+    font-weight: bold;
+}
+#project>table>tr:first-child>td:nth-child(2n-1),
+#project>table>tr:nth-child(2)>td:nth-child(2n-1),
+#project>table>tr:nth-child(3)>td:nth-child(2n-1),
+#project>table>tr:nth-child(4)>td:nth-child(2n-1),
+#project>table>tr:nth-child(5)>td:nth-child(2n-1),
+#project>table>tr:nth-child(6)>td:nth-child(2n-1),
+#project>table>tr:nth-child(7)>td,
+#project>table>tr:nth-child(12)>td,
+#project>table>tr:nth-child(13)>td,
+#project>table>tr:nth-child(17)>td,
+#project>table>tr:nth-child(18)>td,
+#project>table>tr:nth-child(22)>td,
+#project>table>tr:nth-child(23)>td,
+#project>table>tr:nth-child(27)>td,
+#project>table>tr:nth-child(32)>td,
+#project>table>tr:nth-child(35)>td,
+#project>table>tr:nth-child(38)>td,
+#project>table>tr:nth-child(41)>td,
+#project>table>tr:nth-child(44)>td,
+#project>table>tr:nth-child(47)>td,
+#project>table>tr:nth-child(50)>td,
+#project>table>tr:nth-child(53)>td,
+#project>table>tr:nth-child(56)>td,
+#project>table>tr:last-child>td:first-child{
+    background-color: #f2f2f2;
+}
+

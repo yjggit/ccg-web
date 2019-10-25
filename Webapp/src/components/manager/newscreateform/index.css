@@ -1,0 +1,8 @@
+
+.addNews>.ant-card>.ant-card-body{
+    padding: 0;
+}
+.addNews>.ant-card>.ant-card-body>form{
+    width: 100%;
+    padding: 0;
+}

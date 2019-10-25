@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/bitbug_favicon.ico">
+  <link rel="stylesheet" href="css/iconfont.css">
+
+  <title>点点GO建筑业大数据平台</title>
+  <style>
+    #cnzz_stat_icon_1275501220 {
+      position: fixed !important;
+      z-index: 999;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<script
+  type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1275501220'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1275501220%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <script>
+    Date.prototype.format = function (fmt) { //author: meizz
+      let o = {
+        "M+": this.getMonth() + 1, //月份
+        "d+": this.getDate(), //日
+        "h+": this.getHours(), //小时
+        "m+": this.getMinutes(), //分
+        "s+": this.getSeconds(), //秒
+        "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+        "S": this.getMilliseconds() //毫秒
+      };
+      if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+      for (let k in o)
+        if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+      return fmt;
+    };
+    Array.prototype.contains = function (obj, strict) {
+      if (!strict) {
+        strict = false;
+      } else {
+        strict = true;
+      }
+      let len = this.length;
+      while (len--) {
+        if (strict && this[len] === obj) {
+          return true;
+        } else if (!strict && this[len] == obj) {
+          return true;
+        }
+      }
+      return false;
+    };
+  </script>
+  <script type="text/javascript"
+    src="http://api.map.baidu.com/api?v=2.0&ak=DLce19SsyYtcKid3v89vWD7GeaDFHmis&callback=initialize"></script>
+  <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f5b6152dd8ef6904f4c2d361217a10c8";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <script>
+    window.BMap = BMap;
+    window.WxLogin = WxLogin;
+  </script>
+</body>
+
+</html>

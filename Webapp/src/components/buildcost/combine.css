@@ -1,0 +1,102 @@
+.ddgo_buildCost{
+    /*margin: 80px auto;*/
+    /*min-height: 600px;*/
+    /*background-color: #fff;*/
+    /*padding: 30px;*/
+}
+
+/*@media screen and (min-width: 768px){*/
+/*    .ddgo_buildCost{*/
+/*        width: 1100px;*/
+/*    }*/
+/*}*/
+/*@media screen and (min-width: 1600px){*/
+/*    .ddgo_buildCost{*/
+/*        width: 1200px;*/
+/*    }*/
+/*}*/
+
+.infoCate{
+    margin: 20px 0;
+}
+.categoryItem{
+    margin: 0 20px;
+    border-color: #fff;
+}
+.categoryItem:hover{
+    border-color: #fff;
+}
+.categoryItem:focus{
+    border-color: #fff;
+}
+.yearItem{
+    margin: 0 20px;
+    border-color: transparent;
+    border: 0 !important;
+}
+
+.yearItem:focus{
+    border-color: transparent;
+    border: 0 !important;
+}
+
+.info_button {
+    margin: 0 20px 0 20px;
+    /*border-radius: 4px !important;*/
+    border-color: transparent;
+    border: 0 !important;
+}
+
+label.ant-radio-button-wrapper-checked{
+    box-shadow: 0 0 0 0 #1890ff;
+}
+
+label.ant-radio-button-wrapper-checked:hover{
+    box-shadow: 0 0 0 0 #1890ff;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before{
+    width: 0;
+}
+
+.info_button:focus{
+    margin: 0 20px 0 20px;
+    /*border-radius: 4px !important;*/
+    border-color: transparent;
+    border: 0 !important;
+
+}
+
+.header{
+    background-color: #aadcff;
+}
+
+.tips{
+    color: #f00;
+    font-weight: bold;
+}
+
+.city_prefix {
+    vertical-align: top;
+    display: inline-block;
+}
+.city_checkbox {
+    padding: 0 5px 5px 5px;
+}
+
+.city> div.ant-checkbox-group> div.ant-row  div.city_checkbox label.ant-checkbox-wrapper> span:first-child{
+    /*border: 1px solid green;*/
+    display: none;
+}
+
+.city> div.ant-checkbox-group> div.ant-row  div.city_checkbox label.ant-checkbox-wrapper> span:last-child:hover{
+    /*border: 1px solid red;*/
+    color: #40a9ff;
+}
+
+.city_span {
+    color: #1890ff;
+}
+.city_span:hover {
+    color: #40a9ff;
+}

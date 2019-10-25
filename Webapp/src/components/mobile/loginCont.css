@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* @media screen and (min-width: 0){
+  .gcez_loginPageBox{
+      width: 600px;
+  }
+}
+@media screen and (min-width: 768px){
+  
+}
+@media screen and (min-width: 990px){
+  .gcez_loginPageBox{
+      width: 700px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .gcez_loginPageBox{
+      width: 920px;
+  }
+}
+@media screen and (min-width: 1600px){
+  
+} */
+
+.gcez_loginBgImage{
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./../images/gcez_loginBackgroundImage.jpg'); */
+  /* background-position: center top; */
+  /* background-repeat: no-repeat; */
+}
+.gcez_loginPageBox{
+  width: 260px;
+  margin: 50px auto;
+  background-color: #fff;
+}
+.gcez_loginPageBox>div{
+  /* width: 400px; */
+  margin: 0 auto;
+}
+.gcez_loginPageBox  .gcez_loginList ul{
+  overflow: hidden;
+}
+.gcez_loginPageBox  .gcez_loginList ul  li{
+  list-style: none;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.gcez_loginPageBox  .gcez_loginList ul  li:hover{
+  color: #4090f8;
+  font-weight: bold;
+  cursor: pointer;
+}
+.gcez_loginPageBox  .gcez_loginList ul  li:first-child{
+  color: #4090f8;
+  font-weight: bold;
+}
+.gcez_loginPageBox  .gcez_loginList ul  li:first-child a{
+  text-decoration: none;
+  color: #4090f8;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.gcez_loginList>div{
+  height: 2px;
+  background-color: rgb(240, 240, 240);
+}
+.gcez_loginList>div>div{
+  width: 50%;
+  height: 3px;
+  background-color:#4090f8;
+  border-radius: 2px;
+}
+.gcez_loginPageBox .gcez_loginSbumin{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.gcez_loginPageBox .gcez_loginSbumin>input{
+  padding: 2px 10px;
+  margin-bottom: 20px;
+  width: 258px;
+  height: 40px;
+  outline:none; 
+  border: none;
+  border-bottom:1px solid rgb(202, 202, 202);
+}
+.gcez_loginPageBox .gcez_loginSbumin>div{
+  margin-bottom: 10px;
+}
+.gcez_loginPageBox .gcez_loginSbumin>div>span{
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+  padding-left: 5px;
+}
+.gcez_loginPageBox .gcez_loginSbumin button{
+  margin-bottom: 10px;
+  width: 258px;
+  height: 46px;
+  border-radius: 6px;
+  outline:none; 
+  border:1px solid #4090f8;
+  background-color: #4090f8;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+.gcez_loginPageBox .gcez_loginSbumin #login_but {
+  width: 258px;
+}
+.gcez_loginPageBox .gcez_loginSbumin button:hover{
+  background-color: #3389f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+.gcez_loginPageBox .gcez_loginSbumin p{
+  font-size: 12px;
+  text-align: right;
+}
+.gcez_loginSbumin p span{
+  color: #3389f6;
+}
+.gcez_loginSbumin p span:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.gcez_loginWchatWay div{
+  height: 1px;
+  background-color: rgb(202, 202, 202);
+}
+.gcez_loginWchatWay div i{
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top:-30px;
+  /* background-image: url('./../images/'); */
+  background-position: 0 -200px;
+}
+.gcez_loginWchatWay div i:hover{
+  cursor: pointer;
+  /* background-image: url('./../images/gcez_backgroundIcon.png'); */
+  background-position: -80px -200px;
+}
+.gcez_loginWchatWay p{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+}

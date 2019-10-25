@@ -1,0 +1,58 @@
+
+
+
+#personSearchInput{
+    width: 100%;
+    height: auto;
+    /* border:1px solid red; */
+  }
+  #personSearchInput .ant-row>form{
+  height: auto;
+  overflow: hidden;
+  }
+  #personSearchInput .ant-row>form>div{
+    padding: 5px;
+  }
+  #personSearchInput .ant-row>form>div>div{
+  /* border:1px solid rgb(0, 89, 255); */
+  margin-bottom: 0;
+  }
+  #personSearchInput .ant-row>form>div>div>div:first-child{
+  float: left;
+  width: 80px;
+  }
+  #personSearchInput .ant-row>form>div>div>div:last-child{
+    overflow:hidden;
+  }
+.ddgo_personnelEnquiryButtons{
+  /* border:1px solid red; */
+  width: 160px;
+  margin: 0 auto;
+}
+.ddgo_personnelEnquiryButtons>button{
+  margin: 5px 5px 0px 5px;
+}
+  
+/* table */
+   .ddgo_personSearch_table{
+    /* border:1px solid red; */
+    margin: 20px 0;
+  }
+  
+  .ddgo_personSearch_table table>tbody>tr>td:nth-child(3),
+  .ddgo_personSearch_table table>tbody>tr>td:nth-child(4),
+  .ddgo_personSearch_table table>tbody>tr>td:nth-child(5){
+  text-align: left;
+  }
+  .ddgo_personSearch_table table  tbody>tr>td>ul>li{
+    list-style: none;
+  }
+  .ddgo_personSearch_table table>tbody>tr>td>a{
+    color: #1d85e6;
+    text-decoration: none;
+  }
+  .ddgo_personSearch_table table>tbody>tr>td>a:hover{
+    cursor: pointer;
+  }
+
+  

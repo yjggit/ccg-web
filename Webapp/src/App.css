@@ -1,0 +1,531 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration:none;
+}
+.App {
+  width: 100%;
+
+}
+.ddgo_head{
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  box-shadow: .5px .5px .5px .5px rgb(182, 182, 182);
+  position: fixed;
+  z-index: 999;
+}
+
+@media screen and (min-width: 0){
+  .ddgo_headBox{
+    width: 740px;
+  }
+  /* menu */
+  .ddgo_menu ul{
+    margin-right: 10px;
+  }
+  .ddgo_menu ul li{
+    padding:0 5px;
+    font-size: 15px;
+  }
+  /* .ddgo_menu ul li:nth-child(3){
+    width: 58px;
+  } */
+  /* user */
+  .ddgo_userLogin .ddgo_userName ul{
+    background-color: #fff;
+    width: 150px;
+    position: relative;
+    top: -15px;
+    left: 20px;
+  }
+  /* .ddgo_userLogin .ddgo_userName ul li{
+    font-size: 15px;
+  } */
+}
+@media screen and (min-width: 768px){
+  
+}
+@media screen and (min-width: 992px){
+  .ddgo_headBox{
+    width: 900px;
+  }
+  /* menu */
+  .ddgo_menu ul li{
+    padding:0 10px;
+    font-size: 16px;
+  }
+  /* .ddgo_menu ul li:nth-child(3){
+    width: 68px;
+  } */
+  /* user */
+  .ddgo_userLogin .ddgo_userName ul{
+    background-color: #fff;
+    width: 200px;
+    position: relative;
+    top: -15px;
+    left: 40px;
+  }
+  .ddgo_userLogin .ddgo_userName ul li{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .ddgo_headBox{
+    width: 1100px;
+  }
+   /* menu */
+   .ddgo_menu ul li{
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  /* .ddgo_menu ul li:nth-child(3){
+    width: 88px;
+  } */
+  /* user */
+  .ddgo_userLogin .ddgo_userName ul{
+    background-color: #fff;
+    width: 200px;
+    position: relative;
+    top: -15px;
+    left: 40px;
+  }
+}
+@media screen and (min-width: 1600px){
+  .ddgo_headBox{
+    width: 1200px;
+  }
+  /* menu */
+  .ddgo_menu ul li{
+    padding: 0 25px;
+    font-size: 16px;
+  }
+  /* .ddgo_menu ul li:nth-child(3){
+    width: 98px;
+  } */
+  /* user */
+  .ddgo_userLogin .ddgo_userName ul{
+    background-color: #fff;
+    width: 200px;
+    position: relative;
+    top: -15px;
+    left: 40px;
+  }
+}
+
+/* publik */
+.ddgo_headBox{
+  margin: 0 auto;
+  /* border:1px solid red; */
+}
+/* logo */
+.ddgo_login{
+  width: 100px;
+  height: 58px;
+  float: left;
+  background-image: url('./images/ddgoLogo.png')
+}
+/* menu */
+.ddgo_menu{
+  margin-left: 100px;
+}
+/* .ddgo_menu ul{
+  border:1px solid red;
+} */
+.ddgo_menu ul,.ddgo_loginUser,.ddgo_dividerLine{
+  float: right;
+}
+.ddgo_menu ul li:hover{
+  font-weight: bold;
+  color: #3586f1;
+  cursor: pointer;
+}
+.ddgo_menu ul li:hover a{
+  font-weight: bold;
+  color: #3586f1;
+  cursor: pointer;
+}
+.ddgo_dividerLine{
+  width: 1px;
+  height: 40px;
+  background-color: rgba(221, 221, 221, 0.336);
+  margin: 10px 5px;
+}
+.ddgo_menu ul li{
+  float: left;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  color: #313131;
+  text-align: center;
+}
+
+.ddgo_wechat{
+  width: 180px;
+  height: 180px;
+  /* border:1px solid red; */
+  position: relative;
+  top:2px;
+  left: -60px;
+  background-image: url('./images/gcez_backgroundIcon.png');
+  background-position: 0 -261px;
+  display: none;
+}
+.ddgo_menu ul li:nth-child(3):hover .ddgo_wechat{
+  display: block;
+}
+.ddgo_menu ul li a{
+  display: block;
+  width: 100%;
+  height: 60px;
+  color: #313131;
+  text-decoration: none;
+}
+/* logo+user */
+.ddgo_loginUser{
+  width: 150px;
+  height: 60px;
+}
+
+.ddgo_loginUser  .ddgo_loginBox{
+  width: 100%;
+  height: 100%;
+}
+.ddgo_loginUser  .ddgo_loginBox .ddgo_logoRegister{
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px auto;
+  border:1px solid rgb(214, 214, 214);
+  border-radius: 6px;
+  background-color: #fff;
+  color: #313131;
+  letter-spacing: 1px;
+}
+.ddgo_loginUser  .ddgo_loginBox .ddgo_logoRegister a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #313131;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.ddgo_loginUser  .ddgo_loginBox .ddgo_logoRegister:hover{
+  background-color: #38a4ec;
+}
+.ddgo_loginUser  .ddgo_loginBox .ddgo_logoRegister:hover a{
+  color: #fff;
+}
+
+.ddgo_userLogin{
+  width: 100%;
+  height: 60px;
+}
+.ddgo_userLogin .ddgo_custom{
+  width: 50px;
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+  /* border:1px solid red; */
+}
+
+.ddgo_userLogin .ddgo_custom p{
+ position: relative;
+ z-index: 9;
+ left: 15px;
+ top: 8px;
+ background-color: rgb(216, 4, 4);
+ border-radius: 8px;
+ width: 32px;
+ height: 18px;
+ font-size: 14px;
+ text-align: center;
+ color: #fff;
+ line-height: 18px;
+}
+.ddgo_userLogin .ddgo_custom .gcez_customIcon{
+  display: block;
+  width: 35px;
+  height: 40px;
+  margin-top: -20px;
+  background-image: url('./images/gcez_backgroundIcon.png');
+  background-position: -275px -120px;
+}
+.ddgo_userLogin .ddgo_custom:hover{
+  cursor: pointer;
+}
+.ddgo_userLogin .ddgo_userName>p{
+ height: 60px;
+ line-height: 60px;
+ font-size: 16px;
+ overflow: hidden;
+}
+.ddgo_userLogin .ddgo_userName ul li{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.ddgo_userLogin .ddgo_userName ul li:hover a{
+  font-weight: bold;
+  color: #3586f1;
+  cursor: pointer;
+}
+
+.ddgo_userLogin .ddgo_userName ul{
+  display: none;
+}
+.ddgo_userLogin .ddgo_userName:hover p{
+  font-weight: bold;
+  color: #3586f1;
+  cursor: pointer;
+}
+.ddgo_userLogin .ddgo_userName:hover ul{
+  display: block;
+}
+#header_Personal{
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+}
+#header_Personal:hover{
+  color: #4170f1;
+  cursor: pointer;
+  font-weight: bold;
+}
+#header_Personal ul{
+  background-color: #fff;
+  width: 150px;
+  box-shadow: 0 0 2px #cfcfcf;
+  display: none;
+}
+#header_Personal:hover ul{
+  display: block;
+}
+#header_Personal ul li{
+  width: 100%;
+  /* font-size: 16px; */
+  height: 50px;
+  line-height: 50px;
+  border-bottom:1px  solid #e2e2e2;
+}
+
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center-modal .ant-modal {
+  top: 0;
+}
+
+
+.ddgo_Feedback{
+  background-color: #3586f1;
+  width: 145px;
+  position: fixed;
+  z-index: 99;
+  top: 54%;
+  right: 0;
+  height: 44px;
+}
+.ddgo_Feedback:hover{
+  cursor: pointer;
+}
+.ddgo_Feedback>ul>li{
+  float: left;
+  padding: 0 5px;
+  color: #fff;
+  height: 44px;
+  line-height:44px;
+  list-style: none;
+  text-align: center;
+
+}
+.ddgo_Feedback>ul>li:first-child{
+  width: 44px;
+  font-size:20px;
+}
+.ddgo_Feedback>ul>li:nth-child(2){
+  width: 1px;
+  padding: 0;
+  height: 20px;
+  margin-top: 12px;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.ddgo_Feedback>ul>li:last-child{
+  width: 75px;
+}
+
+.ddgo_Feedback .consult {
+  margin-top: 45px;
+  padding-top: 10px;
+  height: 90px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+.ddgo_Feedback .consult p {
+  margin: 0;
+}
+
+.ddgo_Feedback_box_modal #rcDialogTitle0{
+  text-align: center;
+}
+.ddgo_Feedback_box{
+  /* border:1px solid red; */
+}
+
+.ddgo_Feedback_box_modal .ant-modal>.ant-modal-content>.ant-modal-body{
+  width: 90%;
+}
+
+.ddgo_Feedback_box>p:first-child{
+  /*font-size: 16px;*/
+}
+.ddgo_Feedback_box>p:nth-child(3){
+text-align: right;
+padding: 5px;
+}
+
+.ddgo_sys_maintenance>p:first-child{
+  /*font-size: 16px;*/
+}
+.ddgo_sys_maintenance>p:nth-child(2){
+  text-indent: 25px
+}
+
+.ddgo_app_banner{
+  width: 100%;
+  /* border:1px solid red; */
+}
+.ddgo_app_banner>.ant-modal{
+  width: 1200px !important;
+  position: relative;
+  /* border:1px solid red; */
+}
+/* .ddgo_app_banner .ant-modal>.ant-modal-content{
+  width: 100%;
+} */
+.ddgo_app_banner .ant-modal>.ant-modal-content>.ant-modal-body{
+  width: 100%;
+  padding: 0;
+}
+.ddgo_app_banner_img{
+  width: 100%;
+  height: 500px;
+  background-image: url('./images/2-1.gif');
+  background-position:center;
+  
+}
+.ddgo_app_banner .ant-modal>.ant-modal-content>.ant-modal-body>p{
+  text-align: center;
+  padding: 5px;
+  float: left;
+  width: 100%;
+  position: relative;
+  top:460px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 10px;
+}
+.ddgo_app_banner .ant-modal>.ant-modal-content>.ant-modal-body>p>span{
+  color: #5d41ff;
+  padding: 0 5px;
+}
+/* .ddgo_app_banner .ant-modal>.ant-modal-content>.ant-modal-body>.ddgo_app_banner_button{  
+  float: left; 
+  position: relative;
+  top:450px;
+} */
+
+.ddgo_LogReg_modal .ant-modal {
+  margin-top: 6%;
+}
+.ddgo_LogReg_modal .ant-modal>.ant-modal-content>.ant-modal-body {
+  width: 100%;
+  margin: 0;
+  padding: 30px 30px 0 0;
+  background-image: url('./images/logreg.png');
+  background-position:center;
+  display: flex;
+  justify-content: flex-end;
+}
+.ddgo_LogReg_modal .ant-modal>.ant-modal-content>.ant-modal-close {
+  color: #232323;
+}
+.logRegModal {
+  width: 50%;
+}
+.ddgo_LogReg_modal .logRegModal .ant-tabs-bar {
+  border: none;
+}
+.ddgo_LogReg_modal .logRegModal .logRegBox .ant-tabs-nav-scroll {
+  width: 200px;
+  margin: 0 auto;
+}
+.ddgo_LogReg_modal .logRegModal .logRegBox .ant-tabs-nav-scroll .ant-tabs-tab {
+  font-size: 18px;
+}
+.ddgo_LogReg_modal .logRegModal .logRegBox .ant-tabs-nav-scroll .ant-tabs-nav .ant-tabs-tab-active {
+  width: 100px;
+  text-align: center;
+}
+.ddgo_LogReg_modal .logRegModal .logInputBox,
+.ddgo_LogReg_modal .logRegModal .regInputBox{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+.ddgo_LogReg_modal .logRegModal .regInputBox {
+  width: 50%;
+  margin-right: 20px;
+}
+.ddgo_LogReg_modal .logRegModal .logInputBox .anticon{
+  margin: 0 10px;
+  font-size: 18px;
+}
+.ddgo_LogReg_modal .logRegModal .regInputBox .anticon {
+  margin: 0 23px 0 10px;
+}
+.ddgo_LogReg_modal .logRegModal .logInputBox input,
+.ddgo_LogReg_modal .logRegModal .regInputBox input{
+  width: 93%;
+  height: 39px;
+  line-height: 39px;
+  border: none;
+}
+.ddgo_LogReg_modal .logRegModal .inbgRegisterSbumin>div>button {
+  width: 35%;
+}
+.redPacketModal .ant-modal-content{
+  background-color: rgba(255, 255, 255, 0) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.redPacketModal .ant-modal-content .ant-modal-close{
+  right: 200px;
+  top: 60px;
+  color: #232323;
+}
+.redPacketModal .ant-modal-content .ant-modal-close .ant-modal-close-x {
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 24px !important;
+  border-radius: 50% !important;
+  border: 1px solid #232323 !important;
+}

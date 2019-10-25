@@ -1,0 +1,99 @@
+
+  #compositeSearch .ant-table-tbody > tr > td:first-child{
+    padding:0 5px;
+  }
+  #compositeSearch .ant-table-tbody > tr > td:nth-child(2){
+    text-align:left;
+    padding:0 10px;
+  }
+  #compositeSearch .ant-table-tbody > tr > td:nth-child(3){
+    min-width: 90px;
+  }
+  #compositeSearch .ant-table-tbody > tr > td:nth-child(4){
+    min-width: 150px;
+  }
+  #compositeSearch .ant-table-tbody > tr > td:nth-child(5){
+    min-width: 60px;
+  }
+  #compositeSearch .ant-table-tbody > tr > td:nth-child(2)>a{
+    text-decoration: none;
+    color: #348bda;
+  }
+
+
+
+
+  #compositeSearchInput{
+      width: 100%;
+      height: auto;
+  }
+  #compositeSearchInput .ant-row>form{
+    height: auto;
+    overflow: hidden;
+  }
+  #compositeSearchInput .ant-row>form>div{
+      padding: 5px;
+  }
+  #compositeSearchInput .ant-row>form>div>div{
+    margin-bottom: 0;
+    /* border:1px solid red; */
+  }
+  #compositeSearchInput .ant-row>form>div>div>div:first-child{
+    float: left;
+    width: 80px;
+    /* border:1px solid blue; */
+  }
+  #compositeSearchInput .ant-row>form>div>div>div:last-child{
+      overflow:hidden;
+      /* border:1px solid green; */
+  }
+
+
+ #projectPriceSpan{
+      /* border:1px solid rgb(128, 33, 23);  */
+      float: right;
+      margin-top:-40px;
+      margin-left: -5px;
+      position: relative;
+      z-index: 9;
+      color: rgb(189, 189, 189);
+ }
+
+
+
+
+  #compositeSearchInput .ant-row>form>div>div .ant-input-number{
+      width:37%;
+     
+  }
+
+  #projectNum>.ant-row>.ant-form-item-control-wrapper>.ant-form-item-control>.ant-form-item-children>.ant-input-number{
+      width: 100%;
+  }
+  
+  
+  .ant-calendar-picker{
+      width: 100%;
+  }
+
+  /* more chooes */
+  #moreChoose{
+      width: 100%;
+      overflow: hidden;
+      
+  }
+  .searchBoxTitel{
+    font-size: 14px;
+    width:100px;
+    padding-left: 10px;
+    color:#232323;
+    float: left;
+}
+.searchClassItem{
+    border: 1px solid #d6d6d6;
+    float: left;
+    width:calc(100% - 100px);
+    min-height: 75px;
+    padding: 10px;
+}
+

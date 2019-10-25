@@ -1,0 +1,10 @@
+/target/
+.settings/
+.classpath
+.project
+node_modules
+*.log
+build
+.idea
+*.iml
+*.code-workspace

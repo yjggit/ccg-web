@@ -1,0 +1,34 @@
+#personSelectMem{
+    width: 100%;
+    height: auto;
+    color: #000;
+}
+#personSelectMem>h3{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #348bda;
+    margin-bottom: 20px;
+}
+#personSelectMem>.ant-table-wrapper{
+    height: auto;
+    overflow: hidden;
+}
+
+
+#personSelectMem>.ant-table-wrapper>.ant-spin-nested-loading{
+    height: auto;
+    overflow: hidden;
+
+}
+#personSelectMem .ant-table-body{
+
+    border-radius: 4px;
+}
+#personSelectMem .ant-table-body .ant-table-thead>tr>th{
+    padding: 12px 10px;
+}
+#personSelectMem .ant-table-body .ant-table-tbody > tr>td{
+    padding: 10px;
+}

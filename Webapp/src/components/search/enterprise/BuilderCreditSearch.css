@@ -1,0 +1,54 @@
+  /* made in 2018-08-16  by wushuang */
+  #creditSearchInput{
+    width: 100%;
+    height: auto;
+    /* border:1px solid red; */
+  }
+  #creditSearchInput .ant-row>form{
+  height: auto;
+  overflow: hidden;
+  }
+  #creditSearchInput .ant-row>form>div{
+    padding: 5px;
+  }
+  #creditSearchInput .ant-row>form>div>div{
+  /* border:1px solid rgb(0, 89, 255); */
+  margin-bottom: 0;
+  }
+  #creditSearchInput .ant-row>form>div>div>div:first-child{
+  float: left;
+  }
+  #creditSearchInput .ant-row>form>div>div>div:last-child{
+    overflow:hidden;
+  }
+  .ant-input-number{
+    width: 45%;
+  }
+  /* table */
+  
+   #creditSearch .ant-table-tbody > tr > td:nth-child(2){
+      text-align:left;
+      padding:0 10px;
+      min-width: 75px;
+    }
+    #creditSearch .ant-table-tbody > tr > td:nth-child(3){
+      padding:0 10px;
+      min-width: 75px;
+    }
+    #creditSearch .ant-table-tbody > tr > td:nth-child(4){
+      padding:0 10px;
+      min-width: 75px;
+    }
+    #creditSearch .ant-table-tbody > tr > td:nth-child(5){
+      padding:0 10px;
+      min-width: 80px;
+    }
+    #creditSearch .ant-table-tbody > tr > td:nth-child(6){
+      padding:0 10px;
+      min-width: 80px;
+    }
+    #creditSearch .ant-table-tbody > tr > td:nth-child(7){
+      padding:0 10px;
+      min-width: 100px;
+    }
+  /* made in 2018-08-16  by wushuang */

@@ -1,0 +1,54 @@
+
+#usersListSearch .ant-row{
+    padding: 0;
+    margin: 0;
+}
+#usersListSearch .ant-row>form>div{
+    margin-bottom:20px;
+
+}
+#usersListSearch .ant-row>form>div>div{
+    width: 100%;
+    overflow: hidden;
+}
+#usersListSearch .ant-row>form>div>div>div:first-child{
+    width: 80px;
+    float: left;
+}
+#usersListSearch .ant-row>form>div>div>div:last-child{
+    width: 60%;
+}
+#usersListSearch .ant-row>form>div>div>div:last-child>.ant-form-item-control .ant-calendar-picker{
+    width: 42%;
+}
+#usersListSearch .ant-row>form>div>button{
+    width:36%;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+
+#addUsers .ant-table-wrapper>.ant-spin-nested-loading>.ant-spin-container>.ant-table .ant-table-body>table>tbody>tr>td{
+    padding:15px;
+}
+#addUsers .ant-table-wrapper>.ant-spin-nested-loading>.ant-spin-container>.ant-table .ant-table-body>table>tbody>tr>td:last-child{
+    width: 120px;
+}
+
+
+#addUsers>.ant-card>.ant-card-body>div>div:nth-child(2)>ul{
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px ;
+}
+#addUsers>.ant-card>.ant-card-body>div>div:nth-child(2)>ul:hover{
+    border: 1px solid #1890ff;
+}
+#addUsers>.ant-card>.ant-card-body>div>div:nth-child(2)>ul>li{
+    padding: 0;
+    margin: 0;
+  
+}

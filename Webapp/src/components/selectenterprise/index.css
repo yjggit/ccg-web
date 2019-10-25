@@ -1,0 +1,25 @@
+#SelectEnterpriseTable .ant-table-tbody > tr > td{
+   padding: 10px 20px;
+}
+#SelectEnterpriseTable .ant-table-tbody > tr > td:nth-child(2){
+    text-align: left;
+}
+#SelectEnterpriseTable .ant-table-tbody > tr > td:last-child{
+    width: 100px;
+}
+#SelectEnterpriseBut{
+    overflow: hidden;
+}
+#SelectEnterpriseBut>Button{
+    float: right;
+    margin-right: 10px;
+}
+
+#SelectEnterpriseSearch .ant-row>form>div>div>div:first-child{
+    float: left;
+    width: 80px;
+    border:1px solid red;
+  }
+  #SelectEnterpriseSearch .ant-row>form>div>div>div:last-child{
+      overflow:hidden;
+  }

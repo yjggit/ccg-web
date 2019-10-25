@@ -1,0 +1,79 @@
+#personInfo{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: rgba(214, 214, 214, 0.568);
+}
+#personInfo>div{
+    margin: 0 auto;
+    min-height: 1000px;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 0px) and (max-width:768px) {
+    #personInfo>div{
+        width: 98%;
+    }
+    
+  }
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #personInfo>div{
+        width: 98%;
+    }
+  }
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    #personInfo>div{
+        width: 960px;
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width:1600px) {
+    #personInfo>div{
+        width: 960px;
+    }
+  }
+  @media screen and (min-width: 1600px){
+    #personInfo>div{
+        width: 960px;
+    }
+  }
+
+  .dataRoot{
+    color: #fff;  
+    text-decoration:none;
+  }
+.dataRoot:hover{
+    font-weight: bold;
+    color: #fff;  
+    text-decoration:underline;
+}
+
+#tablecss{
+    border-collapse:collapse;
+    background:#fff;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.thcss{
+    background:#f9f9f9;
+    border:1px solid #ddd;
+    color:#333;
+    padding:12px 10px;
+    font-weight:bold;
+    background-color:#ebecec;
+    text-align:center;
+    width: 180px;
+}
+.tdtwocss{
+    background:#f9f9f9;
+    border:1px solid #ddd;
+    color:#348bda;
+    padding:10px;
+    font-size:16px;
+    background-color:#fff;
+    width: 260px;
+}
+.tdcss{
+    padding:10px;
+    border:1px solid #ddd;
+}

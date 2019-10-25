@@ -1,0 +1,43 @@
+#newsListSearch .ant-row{
+    padding: 0;
+    margin: 0;
+}
+#newsListSearch .ant-row>form>div{
+    margin-bottom:20px;
+}
+#newsListSearch .ant-row>form>div>div{
+    width: 100%;
+    overflow: hidden;
+}
+#newsListSearch .ant-row>form>div>div>div:first-child{
+    width: 80px;
+    float: left;
+
+}
+#newsListSearch .ant-row>form>div>div>div:last-child{
+    width: 60%;
+
+}
+#newsListSearch .ant-row>form>div>button{
+    width:35%;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+
+.addNewsSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul{
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px ;
+}
+.addNewsSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul:hover{
+    border: 1px solid #1890ff;
+}
+.addNewsSeach>.ant-card>.ant-card-body>div>div:nth-child(2)>ul>li{
+    padding: 0;
+    margin: 0;
+  
+}

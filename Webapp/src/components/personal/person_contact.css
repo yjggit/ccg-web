@@ -1,0 +1,28 @@
+#personacaont{
+    width: 100%;
+    height: auto;
+    
+}
+#personacaont>h3{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #348bda;
+    margin-bottom: 20px;
+}
+#personacaont>div{
+    overflow: hidden;
+}
+#personacaont>div>p{
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+#personacaont>div>p>img{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}

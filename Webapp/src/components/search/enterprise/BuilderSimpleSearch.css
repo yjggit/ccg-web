@@ -1,0 +1,52 @@
+
+#simpleSearchInput{
+  width: 100%;
+  height: auto;
+  /* border:1px solid red; */
+}
+#simpleSearchInput .ant-row>form{
+height: auto;
+overflow: hidden;
+}
+#simpleSearchInput .ant-row>form>div{
+  padding: 5px;
+}
+#simpleSearchInput .ant-row>form>div>div{
+/* border:1px solid rgb(0, 89, 255); */
+margin-bottom: 0;
+}
+#simpleSearchInput .ant-row>form>div>div>div:first-child{
+float: left;
+width: 80px;
+}
+#simpleSearchInput .ant-row>form>div>div>div:last-child{
+  overflow:hidden;
+}
+.ddgo_enterpriseQuery_buttons{
+  /* border:1px solid red; */
+  width: 160px;
+  margin: 0 auto;
+}
+.ddgo_enterpriseQuery_buttons>button{
+  margin: 5px;
+}
+
+
+/* table */
+.ddgo_simpleSearch_table{
+  /* border:1px solid red; */
+  margin: 20px 0;
+}
+
+.ddgo_simpleSearch_table table>tbody>tr>td:nth-child(2){
+text-align: left;
+}
+.ddgo_simpleSearch_table table>tbody>tr>td>a{
+  color: #1d85e6;
+  text-decoration: none;
+}
+.ddgo_simpleSearch_table table>tbody>tr>td>a:hover{
+  cursor: pointer;
+}
+
+

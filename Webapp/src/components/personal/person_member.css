@@ -1,0 +1,41 @@
+
+    #personMember{
+        width: 100%;
+        height: auto;
+        color: #000;
+    }
+    #memberList{
+        margin-top: 40px;
+    }
+    #memberList>.ant-form>.ant-row{
+        height: auto;
+        overflow: hidden;
+    }
+    #memberList>.ant-form>.ant-row>div{
+        padding-left: 15px;
+        margin: 0;
+        overflow: hidden;
+    }
+    #memberList>.ant-form>.ant-row>div:last-child{
+        padding-top: 3px;
+    }
+    #memberList>.ant-form>.ant-row>div>.ant-form-item{
+        float: left;
+        width: 100%;
+    }
+    #memberList>.ant-form>.ant-row>div>.ant-form-item>.ant-form-item-control-wrapper{
+        width: 100%;
+    }
+    #memberList>h3:first-child{
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+        padding-left: 10px;
+        border-left: 5px solid #348bda;
+        margin-bottom: 20px;
+    }
+
+    #personMember>.ant-table-wrapper{
+        height: auto;
+        overflow: hidden;
+    }

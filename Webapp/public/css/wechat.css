@@ -1,0 +1,5 @@
+.impowerBox .title {display: none;}
+.impowerBox .info{background: white;z-index: 9999;}
+.impowerBox .info .status_icon{text-align: center;}
+.impowerBox .info #wx_default_tip{display: none;}
+.impowerBox .status {text-align: center;}

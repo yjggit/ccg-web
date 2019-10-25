@@ -1,0 +1,98 @@
+
+/* .ddgo_callForBids_search{
+  border:1px solid red;
+} */
+.ddgo_callForBids_search>form.ant-form>div.ant-row>div>div.ant-form-item{
+  /* border:1px solid green; */
+  margin: 5px 10px;
+}
+
+.ddgo_callForBids_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-label{
+  /* border:1px solid rgb(34, 0, 128); */
+  /* width: 70px; */
+  float: left;
+}
+.ddgo_callForBids_search>form.ant-form>div.ant-row{
+  margin-bottom: 0;
+}
+.ddgo_callForBids_search>form.ant-form>div.ant-row>div>div.ant-form-item>div.ant-form-item-control-wrapper{
+  overflow: hidden;
+  height: 39px;
+}
+/* .ddgo_callForBidsTime{
+  border:1px solid red;
+} */
+.ddgo_callForBidsTime>span.ant-calendar-picker{
+  float: left;
+}
+@media screen and (min-width: 768px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 992px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1200px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 46%;
+  }
+}
+@media screen and (min-width: 1366px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1600px){
+  .ddgo_callForBidsTime>span.ant-calendar-picker{
+    width: 45%;
+  }
+}
+.ddgo_callForBidsButton{
+  /* border:1px solid red; */
+  width: 160px;
+  margin: 0 auto;
+}
+.ddgo_callForBidsButton>button{
+  margin: 5px;
+}
+/* table */
+.ddgo_enterpriseBidInvite_table{
+  /* border:1px solid red; */
+  margin: 20px 0;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:first-child{
+  width: 8%;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:last-child{
+  width: 8%;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:nth-child(2){
+  width: 34%;
+  text-align: left;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:nth-child(3){
+  width: 22%;
+  text-align: left;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:nth-child(4){
+  width: 14%;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td:nth-child(5){
+  width: 14%;
+}
+
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td>a{
+  color: #1d85e6;
+  text-decoration: none;
+}
+.ddgo_enterpriseBidInvite_table table>tbody>tr>td>a:hover{
+  cursor: pointer;
+}

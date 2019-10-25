@@ -1,0 +1,16 @@
+
+.datepicker >span {
+    width: 200px;
+}
+
+.ant-form-inline .ant-form-item > .ant-form-item-label{
+    width: 100px;
+}
+
+.userLog_buttons {
+    width: 300px;
+    margin: 0 auto;
+}
+.userLog_buttons>button{
+    margin: 10px;
+}

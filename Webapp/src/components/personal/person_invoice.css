@@ -1,0 +1,43 @@
+
+#InvoiceApplication>h3{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #348bda;
+    margin-bottom: 20px;
+}
+#InvoiceApplication>img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#InvoiceApplication>div{
+    width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#InvoiceApplication>div>h3{
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    color: #348bda;
+}
+#InvoiceApplication>div>p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#InvoiceApplication>div>p>span{
+    color:#f29700;
+    font-weight: bold;
+}
+#InvoiceApplication>div>img{
+    width: 240px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

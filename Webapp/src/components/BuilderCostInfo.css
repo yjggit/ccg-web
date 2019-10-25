@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cost_container{
+    width: 100%;
+    height: auto;
+    margin: 60px 20px;
+    /*position: relative;*/
+}
+
+/*#cost_container>hr{*/
+/*    background: red;*/
+/*}*/
+#cost_container>div{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+#cost_container>div:first-child{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom:1px solid rgb(230, 230, 230);
+}
+#cost_container>div:first-child>ul{
+    /*border:1px solid red;*/
+    margin: 30px auto;
+}
+#cost_container>div:first-child>ul>li{
+    margin-left: 30px;
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+}
+#cost_container>div:first-child>ul>li>a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+#cost_container>div:first-child>ul>li>a:hover{
+    cursor:pointer;
+}
+
+.tabActive{
+    /*color: #348cda !important;*/
+    color: #fff !important;
+    background-color: #348cda;
+    border-bottom: 2px solid #348bda;
+    font-weight: bold;
+}
+
+
+
+#searchCon{
+    background-color: #fff;
+    margin: 0 auto 40px auto;
+    min-height: 600px;
+}
+/* made in 2018-08-21 by wushuang */
+@media screen and (min-width: 0){
+    #cost_container>div:nth-child(2)>ul{
+        width: 90%;
+    }
+    #searchCon{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    #cost_container>div:nth-child(2)>ul{
+        width: 90%;
+    }
+    #searchCon{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 992px) {
+    #cost_container>div:nth-child(2)>ul{
+        width: 960px;
+    }
+    #searchCon{
+        width: 960px;
+    }
+}
+@media screen and (min-width: 1200px){
+
+}
+@media screen and (min-width: 1600px){
+
+}
